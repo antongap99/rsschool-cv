@@ -15,7 +15,7 @@ I received my bachelor's degree from SPbPU in power engineering. After my intern
    * HTML & CSS
    * Git
    * C++ basics
-  
+#### Simple code
   ```
 function multiply(a, b){
   var x = a * b;
