@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV_2</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="asider">
+            <div class="Profile">
+                <div class="photo">
+                    <img src="img/cv_face.jpg" alt="Face">
+                </div>
+                <span class="Name">
+                    <h2>Gaponenko Anton</h2>
+                </span>
+                <span class="dev">Web Developer</span>
+            </div>
+            <div class="Contact">
+                <h2>Сontact information</h2>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="Contact_text"> +7 928 361-47-60</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></i></span>
+                        <span class="Contact_text"> Russia, Saint-Petersburg</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                        <span class="Contact_text"><a href="https://github.com/antongap99">antongap99</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
+                        <span class="Contact_text"><a href="https://t.me/antonics">antonics</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="Contact_text">anton.gap99@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                        <span><a href="https://english.spbstu.ru/">spbstu</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-laptop" aria-hidden="true"></i></i></span>
+                        <span class="Contact_text">Courses:</span>
+                        <ul>
+                            <li>
+                                <span class="Contact_text"> <a href="https://openedu.ru/">Open education</a></span>
+                            </li>
+                            <li>
+                                <span class="Contact_text"> <a href="https://www.coursera.org/">Coursera</a></span>
+                            </li>
+                            <li>
+                                <span class="Contact_text"> <a href="https://welcome.stepik.org/en">Stapik</a></span>
+                            </li>
+                            <li>
+                                <span class="Contact_text"> <a href="https://rs.school/">RS school</a></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="languages">
+                <h2>languages</h2>
+                <ul>
+                    <li> <span class="icon"><i class="fa fa-language" aria-hidden="true"></i></span>
+                        <span class="Contact_text">Russian (native)</span>
+                    </li>
+                    <li> <span class="icon"><i class="fa fa-language" aria-hidden="true"></i></span>
+                        <span class="Contact_text">english</span>
+                    </li>
+                </ul>
+            </div>
+            <p></p>
+        </div>
+        <div class="main">
+            <h2 class="title">About me</h2>
+            <p class="about">I received my bachelor's degree from SPBPU in power engineering. After my internship at the
+                plant, I realized that I should look for a profession that my implements creative potential. That's why
+                I chose on front end development. I study hard and try not to waste my time.</p>
+            <div class="Skills">
+                <h2 class="title">Skills</h2>
+                <ul>
+                    <li>
+                        <div class="skills_bar"><span class="js">JS Basic</span> <span class="container_bar"><div class="bar_js"></div></span></div>
+                    </li>
+                    <li>
+                        <div class="skills_bar"><span class="js">HTML &amp; CSS</span> <span class="container_bar"><div class="bar_html"></div></span></div>
+                    </li>
+                    <li>
+                        <div class="skills_bar"><span class="js">Git</span> <span class="container_bar"><div class="bar_git"></div></span></div>
+                    </li>
+                    <li>
+                        <div class="skills_bar"><span class="js">C++</span> <span class="container_bar"><div class="bar_c"></div></span></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="Simple_code">
+                <h2 class="title">Simple code</h2>
+                <div class="code"> 
+                    <pre><code> 
+let deepCount = (arr) => {
+return arr.reduce((accumulator , elem) => 
+{accumulator + ((typeof elem == 'object') ? deepCount(elem) : 0);}, arr.length);
+}    
+                        </code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
