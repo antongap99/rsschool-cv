@@ -23,7 +23,7 @@ body {
 }
 .container .asider {
     position: relative;
-    background: #003147;
+    background: #244e61;
     padding: 30px;
 }
 .container .main {
@@ -43,13 +43,13 @@ img {
     position: relative;
     top: -25px;
     left: 0;
-    width: 200px;
+    width: 180px;
     object-fit: cover;
 }
 .Profile .photo {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -104,11 +104,13 @@ img {
     font-size: 20px;
     color:whitesmoke
 }
-.about{
-    margin: 20px 20px;
+.about, .Skills, .Simple_code{
+    margin-bottom: 100px;
+    font-size: 1.2em;
+    
 }
 .main .title {
-    color: #003147;
+    color: #244e61;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
