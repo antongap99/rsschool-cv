@@ -1,0 +1,159 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*width внутри  padding*/
+}
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center; /*выравниает флекс - элементы по горизонтали*/
+    align-items: center; /*выравниает флекс - элементы по вертикали*/
+    min-height: 100vh;
+}
+a, a:visited, a:active{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    margin: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.5);
+}
+.container .asider {
+    position: relative;
+    background: #244e61;
+    padding: 30px;
+}
+.container .main {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.Profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #fff;
+}
+img {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 180px;
+    object-fit: cover;
+}
+.Profile .photo {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Profile .Name, .dev, .Contact h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Name{
+    font-weight: 800;
+    font-size: 1.2em;
+    text-align: center;
+}
+.dev{
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.Contact{
+    padding-top: 20px;
+}
+.Contact h2, .languages h2, .Education h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.Contact ul{
+    position: relative;
+    padding-left: 15px;
+}
+.Contact ul li, .languages ul li, .Education ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Education ul li ul li{
+    list-style: outside;
+    color: #fff;
+}
+.Education ul li .Contact_text, 
+.Education ul li ul li .Contact_text,
+.Contact ul li .Contact_text,
+.languages ul li .Contact_text
+{
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: 200;
+}
+.Education ul .icon,  .languages ul .icon, .Contact ul .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 20px;
+    color:whitesmoke
+}
+.about, .Skills, .Simple_code{
+    margin-bottom: 100px;
+    font-size: 1.2em;
+    
+}
+.main .title {
+    color: #244e61;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.Skills ul li{
+    cursor: pointer;
+    list-style-type: calc(0.5);
+}
+.bar_js {
+    width: 60%;
+    background-color: aqua;
+    height: 10px;
+}
+.bar_html {
+    width: 70%;
+    background-color: aqua;
+    height: 10px;
+}
+.bar_git, .bar_c {
+    width: 35%;
+    background-color: aqua;
+    height: 10px;
+}
+.container_bar{
+    display: inline-block;
+    width: 100%;
+    background-color: gray;
+    height: 10px;
+}
+.skills_bar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.skills_bar .js{
+    margin-right: 20px;
+    width: 100px;
+}
+.code{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
