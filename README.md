@@ -1,2 +1,3 @@
 # rsschool-cv
-CV#1
+CV#2
+https://antongap99.github.io/rsschool-cv/
