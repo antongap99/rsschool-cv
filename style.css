@@ -1,37 +1,44 @@
+@font-face{
+    font-family: inter, sans-serif;
+    src: url(fonts/inter_cyrillic-regular.woff2) format('woff2'),
+    url(fonts/inter_cyrillic-regular.woff);
+    font-display: swap; /* ???*/
+    font-weight: 400;
+}
+
 html {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*width внутри  padding*/
 }
+
+
 body {
     background: lightblue;
     display: flex;
+    font-family: inter;
     justify-content: center; /*выравниает флекс - элементы по горизонтали*/
     align-items: center; /*выравниает флекс - элементы по вертикали*/
-    min-height: 100vh;
 }
+
+/*sidebar*/
+
 .container{
     margin: 50px;
     position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
+    width: 1180px;
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 35px rgba(0, 0, 0, 0.5);
 }
-.container .asider {
+.asider {
     position: relative;
     background: #244e61;
     padding: 30px;
 }
-.container .main {
-    position: relative;
-    background: #fff;
-    padding: 40px;
-}
-.Profile{
+
+.asider__profile{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -39,71 +46,71 @@ body {
     padding-bottom: 15px;
     border-bottom: 2px solid #fff;
 }
-img {
+
+
+.profile-photo {
     position: relative;
-    top: -25px;
-    left: 0;
-    width: 180px;
-    object-fit: cover;
-}
-.Profile .photo {
-    position: relative;
-    width: 180px;
-    height: 180px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     overflow: hidden;
 }
-.Profile .Name, .dev, .Contact h2 {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.Name{
+
+.profile-name{
     font-weight: 800;
     font-size: 1.2em;
     text-align: center;
+    color: white;
 }
-.dev{
+.profile-dev{
     font-weight: 200;
     font-size: 0.8em;
+    color: white;
 }
-.Contact{
+.profile-contact{
     padding-top: 20px;
 }
-.Contact h2, .languages h2, .Education h2 {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.profile-contact__title, .education__title{
     font-size: 1.5em;
     text-align: center;
+    color: white;
 }
-.Contact ul{
+.profile-contact__list, .education__list{
     position: relative;
     padding-left: 15px;
 }
-.Contact ul li, .languages ul li, .Education ul li {
+.contact__item,.education__item, .contact-link:active,
+.contact-link:visited, .education-link:active,
+.education-link:visited{
     position: relative;
     list-style: none;
     margin: 10px 0;
     cursor: pointer;
+    color: whitesmoke;
 }
-.Education ul li ul li{
-    list-style: outside;
-    color: #fff;
+.contact-link, .education-link{
+    text-decoration: none;
 }
-.Education ul li .Contact_text, 
-.Education ul li ul li .Contact_text,
-.Contact ul li .Contact_text,
-.languages ul li .Contact_text
-{
-    font-size: 0.8em;
-    color: #fff;
-    font-weight: 200;
+.contact-link:hover, .education-link:hover{
+    color: #322679;
 }
-.Education ul .icon,  .languages ul .icon, .Contact ul .icon{
-    display: inline-block;
-    width: 20px;
-    font-size: 20px;
-    color:whitesmoke
+
+
+
+
+
+
+
+
+
+.main {
+    position: relative;
+    background: #fff;
+    padding: 40px;
 }
+
+
+
 .about, .skills, .simple__code{
     margin-bottom: 100px;
     font-size: 1.2em;
@@ -117,6 +124,7 @@ img {
 .skills ul li{
     cursor: pointer;
     list-style-type: calc(0.5);
+    list-style: none;
 }
 .bar__js {
     width: 60%;
