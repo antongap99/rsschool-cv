@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>CV_2</title>
 </head>
-
 <body>
 
     <div class="container">
@@ -115,8 +114,8 @@
                 <div class="code"> 
                     <pre>
                         <code> 
-let deepCount = (arr) => {
-return arr.reduce((accumulator , elem) => 
+let deepCount = (arr) =&gt;  {
+return arr.reduce((accumulator , elem) =&gt;           
 {accumulator + ((typeof elem == 'object') ? deepCount(elem) : 0);}, arr.length);
 }    
                         </code>
