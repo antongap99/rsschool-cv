@@ -104,7 +104,7 @@ img {
     font-size: 20px;
     color:whitesmoke
 }
-.about, .Skills, .Simple_code{
+.about, .skills, .simple__code{
     margin-bottom: 100px;
     font-size: 1.2em;
     
@@ -114,37 +114,37 @@ img {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-.Skills ul li{
+.skills ul li{
     cursor: pointer;
     list-style-type: calc(0.5);
 }
-.bar_js {
+.bar__js {
     width: 60%;
     background-color: aqua;
     height: 10px;
 }
-.bar_html {
+.bar__html {
     width: 70%;
     background-color: aqua;
     height: 10px;
 }
-.bar_git, .bar_c {
+.bar__git, .bar__c {
     width: 35%;
     background-color: aqua;
     height: 10px;
 }
-.container_bar{
+.container__bar{
     display: inline-block;
     width: 100%;
     background-color: gray;
     height: 10px;
 }
-.skills_bar{
+.skills__bar{
     position: relative;
     display: flex;
     flex-direction: row;
 }
-.skills_bar .js{
+.skills__bar .js{
     margin-right: 20px;
     width: 100px;
 }

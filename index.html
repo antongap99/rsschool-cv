@@ -20,32 +20,27 @@
                 <div class="photo">
                     <img src="img/cv_face.jpg" alt="Face">
                 </div>
-                <span class="Name">
+                <div class="Name">
                     <h2>Gaponenko Anton</h2>
-                </span>
+                </div>
                 <span class="dev">Web Developer</span>
             </div>
             <div class="Contact">
                 <h2>Сontact information</h2>
                 <ul>
                     <li>
-                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
                         <span class="Contact_text"> +7 928 361-47-60</span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></i></span>
                         <span class="Contact_text"> Russia, Saint-Petersburg</span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
                         <span class="Contact_text"><a href="https://github.com/antongap99">antongap99</a></span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
                         <span class="Contact_text"><a href="https://t.me/antonics">antonics</a></span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
                         <span class="Contact_text">anton.gap99@gmail.com</span>
                     </li>
                 </ul>
@@ -54,11 +49,9 @@
                 <h2>Education</h2>
                 <ul>
                     <li>
-                        <span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
                         <span><a href="https://english.spbstu.ru/">spbstu</a></span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-laptop" aria-hidden="true"></i></i></span>
                         <span class="Contact_text">Courses:</span>
                         <ul>
                             <li>
@@ -81,10 +74,10 @@
             <div class="languages">
                 <h2>languages</h2>
                 <ul>
-                    <li> <span class="icon"><i class="fa fa-language" aria-hidden="true"></i></span>
+                    <li> 
                         <span class="Contact_text">Russian (native)</span>
                     </li>
-                    <li> <span class="icon"><i class="fa fa-language" aria-hidden="true"></i></span>
+                    <li>
                         <span class="Contact_text">english</span>
                     </li>
                 </ul>
@@ -96,32 +89,40 @@
             <p class="about">I received my bachelor's degree from SPBPU in power engineering. After my internship at the
                 plant, I realized that I should look for a profession that my implements creative potential. That's why
                 I chose on front end development. I study hard and try not to waste my time.</p>
-            <div class="Skills">
+            <div class="skills">
                 <h2 class="title">Skills</h2>
                 <ul>
                     <li>
-                        <div class="skills_bar"><span class="js">JS Basic</span> <span class="container_bar"><div class="bar_js"></div></span></div>
+                        <div class="skills__bar">
+                            <span class="js">JS Basic</span> 
+
+                            <div class="container__bar">
+                                <div class="bar__js"></div>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <div class="skills_bar"><span class="js">HTML &amp; CSS</span> <span class="container_bar"><div class="bar_html"></div></span></div>
+                        <div class="skills__bar"><span class="js">HTML &amp; CSS</span> <div class="container__bar"><div class="bar__html"></div></div></div>
                     </li>
                     <li>
-                        <div class="skills_bar"><span class="js">Git</span> <span class="container_bar"><div class="bar_git"></div></span></div>
+                        <div class="skills__bar"><span class="js">Git</span> <div class="container__bar"><div class="bar__git"></div></div></div>
                     </li>
                     <li>
-                        <div class="skills_bar"><span class="js">C++</span> <span class="container_bar"><div class="bar_c"></div></span></div>
+                        <div class="skills__bar"><span class="js">C++</span> <div class="container__bar"><div class="bar__c"></div></div></div>
                     </li>
                 </ul>
             </div>
-            <div class="Simple_code">
+            <div class="divimple__code">
                 <h2 class="title">Simple code</h2>
                 <div class="code"> 
-                    <pre><code> 
+                    <pre>
+                        <code> 
 let deepCount = (arr) => {
 return arr.reduce((accumulator , elem) => 
 {accumulator + ((typeof elem == 'object') ? deepCount(elem) : 0);}, arr.length);
 }    
-                        </code></pre>
+                        </code>
+                    </pre>
                 </div>
             </div>
         </div>
