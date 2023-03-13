@@ -37,6 +37,7 @@ function firstNonRepeatingLetter(s) {
 *****
 ## Education
     SPBSTU Power Engineering
+    rs school FE-2022
 ****
 ## Projects
 * [minesweeper](https://github.com/antongap99/vk_test)
