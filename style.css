@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+  background-color: azure;
+}
+
+a, a:visited, a:focus {
+  text-decoration: none;
+  color:rgb(61, 220, 167)
+}
+
+.cv {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(61, 220, 167)
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.codewars__code {
+  width: 60%;
+  background-color: rgb(63, 53, 53);
+  color: rgb(61, 220, 167);
+  padding: 5px;
+}
