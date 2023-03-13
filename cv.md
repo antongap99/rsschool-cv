@@ -1,17 +1,18 @@
 # Gaponenko Anton
 ## Junior Frontend developer
-*********
+****
 ## contact information:  
 * phone: +7 (928) 361 47-60
 * email: anton.gap99@gmail.com
 * tg: antonics
 * discord: antonics
 * Anton.Gaponenko (antongap99)#4429
-*********
+
+****
 ## About me
 I have been studying web development for about a year, and  continue to improve my skills. In order to find a job and further improve soft and hard skills
 
-*********
+****
 ## skills
 * html, css, scss, less
 * js, typescript, react, next.js
@@ -21,6 +22,7 @@ I have been studying web development for about a year, and  continue to improve 
 * node.js, express.js
 * docker
 
+****
 ## Code example
 ```
 function firstNonRepeatingLetter(s) {
@@ -38,12 +40,15 @@ function firstNonRepeatingLetter(s) {
 ## Education
   * SPBSTU Power Engineering
   * rs school FE-2022
+
 ****
 ## Projects
 * [minesweeper](https://github.com/antongap99/vk_test)
 * [blog](https://github.com/antongap99/blogget)
 * [telephone Directory](https://github.com/antongap99/telephone_Directory)
 * [landing](https://github.com/antongap99/indoTravel)
+
+****
 ## Languages
 * English b1
 * Russian Native
