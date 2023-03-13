@@ -46,14 +46,14 @@
         <h2 class="codewars__title title">Code example</h2>
         <div class="codewars__code">
           <pre>
-            function firstNonRepeatingLetter(s) { 
+            function firstNonRepeatingLetter(s) {
               const letters = s.split('');
-              const result = letters.find((letter, index, arr) => { 
-                  const array = [...arr].join('').toLowerCase().split(''); 
+              const result = letters.find((letter, index, arr) => {
+                  const array = [...arr].join('').toLowerCase().split('');
                   array.splice(index, 1);
-                return !array.includes(letter.toLowerCase()); 
+                return !array.includes(letter.toLowerCase());
               });
-              
+
               return result || '';
             }
           </pre>
