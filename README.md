@@ -1,1 +1,1 @@
-# Rsschool CV
+https://antongap99.github.io/rsschool-cv/cv
