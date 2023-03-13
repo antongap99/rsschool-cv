@@ -1,6 +1,7 @@
 # Gaponenko Anton
 ## Junior Frontend developer
 ****
+
 ## contact information:  
 * phone: +7 (928) 361 47-60
 * email: anton.gap99@gmail.com
@@ -36,7 +37,7 @@ function firstNonRepeatingLetter(s) {
   return result || '';
 }
 ```
-*****
+****
 ## Education
   * SPBSTU Power Engineering
   * rs school FE-2022
