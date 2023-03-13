@@ -12,6 +12,15 @@
 I have been studying web development for about a year, and  continue to improve my skills. In order to find a job and further improve soft and hard skills
 
 *********
+## skills
+* html, css, scss, less
+* js, typescript, react, next.js
+* redux(redux-toolkit), zustand
+* webpack, vite
+* jest
+* node.js, express.js
+* docker
+
 ## Code example
 ```
 function firstNonRepeatingLetter(s) {
